@@ -2,18 +2,6 @@ import type {UserProfileCardProps} from '../types';
 
  
 
-
-// export function UserProfileCard(props: User){
-// return(
-//     <div className="user-profile">
-//       <h2>ID:{props.id}</h2>
-//       <h1>NAME:{props.name}</h1>
-//       <h2>EMAIL:{props.email}</h2>
-//       <h2>ROLE:{props.role}</h2>
-//       <img src={props.avatarUrl} />
-//     </div>
-// );
-// }
 export const UserProfileCard: React.FC<UserProfileCardProps> = ({
   user,
   showEmail = false, // Default to false if not provided
